@@ -18,12 +18,7 @@ foreach($table_fields as $field)
 $resultTable->addChild($table_header_row);
 
 // accessing the database		
-/*
-query for calling stored procedure - not compatible with mysql.php
-$query1 = "call search_wine('".$_GET["wineName"]."','".$_GET["wineryName"]."','".$_GET["region"].
-		"','".$_GET["grape"]."','".($_GET["minYear"]!=''?$_GET["minYear"]:0)."','".$_GET["maxYear"]."','".($_GET["stock"]!=''?$_GET["stock"]:0)."','".($_GET["ordered"]!=''?$_GET["ordered"]:0)."','".
-		($_GET["minPrice"]!=''?$_GET["minPrice"]:0)."','".($_GET["maxPrice"]!=''?$_GET["maxPrice"]:"9999")."')";
-*/
+/**/
 
 /* query as a regular select query*/
 $query = 
